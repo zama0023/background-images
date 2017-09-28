@@ -14,14 +14,23 @@ a {
   background-color: #da823b;
   border-bottom: 3px solid #8e4a32;
   border-top: 3px solid #8e4a32;
+  background-image: url("../images/border-top.svg"), url("../images/border-bottom.svg"), url("../images/bg.svg");
+  background-size: 2px 5px, 2px 5px, 18px auto;
+  background-position: left top, left bottom, left top;
 }
 
 .search-input {
   border-color: #84452f;
+  background-image: url("../images/spy-glass.svg");
+  background-repeat: no-repeat;
+  background-position: .2em center;
+  background-size: 1.2em center;
+  padding-left: 1.5em;
 }
 
 .search-btn {
-
+  background-image: linear-gradient(to bottom, #794431, #8e4a32);
+  border-color: #794431;
 }
 
 @media only screen and (min-width: 60em) {
